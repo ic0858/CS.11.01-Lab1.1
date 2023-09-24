@@ -1,6 +1,14 @@
-public class Pages {
+import java.util.Scanner;
 
-    public static void main(String[] args) {
+public class Pages {
+        public static void main(String[] args)
+        {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println ("Question 2: Pages, Please enter your age: ");
+            int z= scanner.nextInt();
+            System.out.print ("Pages: " + page(z));
+        }
+        public static int page (int n) {return (100-n);}
 
     }
-}
+
